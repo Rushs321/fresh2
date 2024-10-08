@@ -10,8 +10,7 @@
     "start": "node server1.js"
   },
   "dependencies": {
-    "fastify": "^5.0.0",
-    "@fastify/express": "4.0.1",
+    "express": "^5.0.0",
     "lodash": "^4.17.21",
     "sharp": "^0.33.5",
     "undici": "^6.19.8"
