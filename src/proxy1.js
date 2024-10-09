@@ -2,7 +2,7 @@ const axios = require('axios');
 const pick = require("lodash").pick;
 const shouldCompress = require("./shouldCompress");
 const redirect = require("./redirect");
-const compress = require("./compress1");
+const compress = require("./compress2");
 const copyHeaders = require("./copyHeaders");
 
 async function proxy(req, res) {
