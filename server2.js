@@ -3,7 +3,7 @@
 
 
 const app = require('express')()
-const proxy = require('./src/proxy')
+const proxy = require('./src/proxy1')
 
 const PORT = process.env.PORT || 8080
 
